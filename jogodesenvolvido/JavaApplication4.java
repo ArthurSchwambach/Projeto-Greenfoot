@@ -37,7 +37,9 @@ public class JavaApplication4 {
                 int escolha = InOut.leescolha("Jogador Escolha seu personagem"), n = 0, i = 0, player = 0, dragao = 0;
                 DragaoAlado dragon = new DragaoAlado();
                 if(escolha <= 3){
-                    n = InOut.learma();
+                    do {
+                        n = InOut.learma();
+                    } while (n < 1 || n > 4);
                 }
                 Humanos jogador = (Humanos) go.Persona(escolha);
                 Arma_IF arma = go.escolhaArma(n, escolha);
@@ -82,6 +84,7 @@ public class JavaApplication4 {
                        player++;
                        amigo.arma(player, dragao);
                        amigo.voar();
+                       jogador.falar();
                    }
                    else{
                        dragon.voar();
