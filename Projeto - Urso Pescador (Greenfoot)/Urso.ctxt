@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Urso
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ seguirMouse()
+comment3.params=
+comment3.target=void\ dispararGelo()
+comment4.params=
+comment4.target=boolean\ podeDisparar()
+comment5.params=
+comment5.target=void\ ColisaoPeixonauta()
+comment6.params=
+comment6.target=void\ ColisaoAguaViva()
+comment7.params=
+comment7.target=void\ atualizarCor()
+comment8.params=
+comment8.target=void\ ContabilizarPeixes()
+comment9.params=
+comment9.target=void\ ContabilizarVida()
+numComments=10
